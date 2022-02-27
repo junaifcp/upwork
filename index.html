@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/a280bd0730.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="icon" href="./images/title-logo.png" type="image/icon">
+    <title>Upwork | The World's Work Marketplace</title>
+</head>
+<body>
+    <!--Nav bar starts from here-->
+    <div class="container ">
+    <nav class="navbar navbar-expand-xl navbar-light bg-white mx-5">
+        <div class="container-fluid border-bottom border-1 border-secondary py-3">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 28" role="img" aria-hidden="true" height="20"><path fill="#14A800" d="M28.18,19.06A6.54,6.54,0,0,1,23,16c.67-5.34,2.62-7,5.2-7s4.54,2,4.54,5-2,5-4.54,5m0-13.34a7.77,7.77,0,0,0-7.9,6.08,26,26,0,0,1-1.93-5.62H12v7.9c0,2.87-1.3,5-3.85,5s-4-2.12-4-5l0-7.9H.49v7.9A8.61,8.61,0,0,0,2.6,20a7.27,7.27,0,0,0,5.54,2.35c4.41,0,7.5-3.39,7.5-8.24V8.77a25.87,25.87,0,0,0,3.66,8.05L17.34,28h3.72l1.29-7.92a11,11,0,0,0,1.36,1,8.32,8.32,0,0,0,4.14,1.28h.34A8.1,8.1,0,0,0,36.37,14a8.12,8.12,0,0,0-8.19-8.31"></path> <path fill="#14A800" d="M80.8,7.86V6.18H77.2V21.81h3.65V15.69c0-3.77.34-6.48,5.4-6.13V6c-2.36-.18-4.2.31-5.45,1.87"></path> <polygon fill="#14A800" points="55.51 6.17 52.87 17.11 50.05 6.17 45.41 6.17 42.59 17.11 39.95 6.17 36.26 6.17 40.31 21.82 44.69 21.82 47.73 10.71 50.74 21.82 55.12 21.82 59.4 6.17 55.51 6.17"></polygon> <path fill="#14A800" d="M67.42,19.07c-2.59,0-4.53-2.05-4.53-5s2-5,4.53-5S72,11,72,14s-2,5-4.54,5m0-13.35A8.1,8.1,0,0,0,59.25,14,8.18,8.18,0,1,0,75.6,14a8.11,8.11,0,0,0-8.18-8.31"></path> <path fill="#14A800" d="M91.47,14.13h.84l5.09,7.69h4.11l-5.85-8.53a7.66,7.66,0,0,0,4.74-7.11H96.77c0,3.37-2.66,4.65-5.3,4.65V0H87.82V21.82h3.64Z"></path></svg></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="#">Find Talent<i class="fa fa-caret-down ms-2" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Find Work<i class="fa fa-caret-down ms-2" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Why Upwork<i class="fa fa-caret-down ms-2" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Enterprice</a>
+              </li>
+            </ul>
+            <form class="d-flex collapse-xl">   
+                    <input class="form-control border border-1 border-secondary rounded-pill px-5" type="search" placeholder="Search" aria-label="Search">
+              <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="#">Log In</a>
+                  </li>
+            </ul>
+            <button class="btn btn-success border border-3 border-success rounded-pill px-4" type="submit" id="signupBtn">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-white mx-5 d-none d-xl-block">
+        <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Development & IT</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Design & Creative</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Sales & Marketing</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Writing & Translation</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Admin & Customer Support </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">More<i class="fa fa-caret-down ms-2" aria-hidden="true"></i></a>
+              </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container pt-4">
+        <div class="row">
+          <div class="col-8">
+                <h1 id="h1-1">How Work<br>Showld Work</h1>
+              <p id="p-col1">Forget the old rules. You can have the best people.<br>
+                Right now. Right here.</p>
+                <button class="btn btn-success px-2 py-2 me-3 my-3 border border-3 border-success rounded-pill" style="background-color: rgb(20,169,1);">Find Talent</button>
+                <button class="btn btn-outline-success px-2 my-3 py-2 me-3 border border-3 border-success rounded-pill">Find Work</button>
+                <p class="fs-5 d-none d-md-block" id="p-col2">Trusted by</p>
+          </div>
+          <div class="col-4 ">
+              <img class="img-fluid" src="./images/globe-2x.webp" alt="image" width="100%">
+          </div>
+        </div>
+      </div>
+      <div class="container mb-5 ">
+        <div class="row " id="icon">
+            <div class="col-1 me-3 d-none d-md-block"><img src="./images/img-svg-1.svg" alt="svg" width="100%" height="40px"></div>
+            <div class="col-1 d-none d-md-block"><img src="./images/img-svg-2.svg" alt="svg" width="100%" height="40px"></div>
+            <div class="col-1 d-none d-md-block"><img src="./images/img-svg-3.svg" alt="svg" width="100%" height="40px"></div>
+            <div class="col-1 d-none d-md-block"><img src="./images/img-svg-4.svg" alt="svg" width="100%" height="40px"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div style="z-index: -1;" class="col-md-6 col-sm-6 bg-light">
+            <h1 class="sec-2">Why businesses<br>turn to Upwork</h1>
+            <div class="d-flex">
+              <i class="bi bi-skip-start-circle-fill me-2"></i>
+              <h4 class="h4-1">Proof of quality</h4>
+            </div>
+            <p>Check any pro’s work samples, client reviews, and<br>identity verification.</p>
+            <div class="d-flex">
+              <i class="bi bi-skip-start-circle-fill me-2"></i>
+              <h4 class="">No Cost Until You hire</h4>
+            </div>
+            <p>Interview potential fits for your job, negotiate rates, and only pay for work you approve.</p>
+            <div class="d-flex">
+              <i class="bi bi-skip-start-circle-fill me-2"></i>
+              <h4 class="h4-1">Safe and Secure</h4>
+            </div>
+            <p>Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.</p>
+          </div>
+          <div style="z-index: -1; background-color: rgb(20,169,1);" class="col-md-6 col-sm-6 rounded text-white text-left">
+            <h1 class="mt-5">We're<br>the world's work<br>marketplace</h1>
+            <div class="d-flex pt-5">
+              <i class="bi bi-star"></i>
+              <h1>4.9/5</h1>
+            </div>
+            <p>Clients rate professionals on Upwork</p>
+            <div class="d-flex mt-4">
+              <i class="bi bi-star"></i>
+              <h1>Award Winner</h1>
+            </div>
+            <p>G2’s 2021 Best Software Awards</p>
+          </div>
+        </div>
+      </div>
+      <div class="container big-banner text-white overflow-hidden my-5 border border-0 border-secondary rounded" id="bg-cover">
+        <div class="row">
+          <div class="col-md-12 col-sm-4 mt-5 ms-3">
+            <h2>For clients</h2>
+            <h1 class="sec-2  mt-5 mb-4 ms-4 col-sm-12">Find Talent <br>Your Way</h1>
+            <p class="mt-4 mb-5 pt-5">Work with the largest network of independent<br> professionals and get things done—from quick<br> turnarounds to big transformations.</p>
+          </div>
+        </div>
+          <div class="row p-4 justify-content-evenly">
+            <div class="col-md-3 rounded pt-2" style="background-color: rgb(20,169,1);><a href="#" id="anger" class="text-white"><h1>Post a job <br>and hire a pro</h1><p>Talent Marketplace&nbsp;&trade;</p></a></div>
+            <div class="col-md-3 rounded pt-2" style="background-color: rgb(20,169,1);><a href="#" class="text-white"><h1>Browse and buy projects</h1><p>Project Catalog&nbsp;&trade;</p></a></div>
+            <div class="col-md-3 rounded pt-2 " style="background-color: rgb(20,169,1);><a href="#" class="text-white"><h1>let us help you find the right talent</h1><p>Talent Scout&nbsp;&trade;</p></a></div>
+            </div>
+            </div>
+      <div class="container">
+        <div class="row ms-5">
+          <div class="col-md-6 col-sm-12">
+            <h1 class="sec-2">Hire a Pro<br>for any skills</h1>
+              <a href="#"><h2>Development & IT</h2></a>
+              <a href="#"><h2>Design & creative</h2></a>
+              <a href="#"><h2>Sales & Marketing</h2></a>
+              <a href="#"><h2>Writing & Translation</h2></a>
+              <a href="#"><h2>Admin & Costomer Support</h2></a>
+              <a href="#"><h2>Finance & Accounting</h2></a>
+              <a href="#"><h2>See all specializations</h2></a>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="card mb-4 border-0">
+              <img src="./images/img-webp-3.webp" class="card-img-top img-fluid rounded-3" alt="img">
+              <div class="card-body">
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">Back-End Development</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">CMS Development</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">DevOps Engineering</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">Front-End Development</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">Full Stack Development</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">Mobile App Development</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">Systems Administration</a></p>
+                <p class="d-inline-block card-text border border-1 border-secondary rounded-pill px-3 py-1"><a href="#">UX/UI Design</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+      <div class="container border border-0 border-secondary rounded mb-3 text-white overflow-hidden">
+        <div class="row gx-0">
+          <div class="col-md-6 col-sm-12"><img class="img-fluid" src="./images/img-webp-4.webp" alt="img">
+          </div>
+          <div class="col-md-6 col-sm-12 bg-primary text-center text-wrap">
+            <h1 class="sec-2 pt-4">Find great<br>work</h1>
+            <p class="fw-bold ps-5 pe-5">Meet clients you’re excited to work with and take
+              your career or business to new heights.</p>
+              <span class="span1"><p>Find opportunities for every stage of your freelance career</p></span>
+              <span class="span1"><p>Control when, where, and how you work</p></span>
+              <span class="span1"><p>Explore different ways to earn</p></span>
+              <button type="button" class="btn btn-outline-primary px-4 py-2 mb-2 bg-white border border-0 border-secondary rounded-pill ">Find Opportunities</button>
+          </div>
+        </div>
+      </div>
+      <!--  here is some other content need to add-->
+      <div class="container px-4 mb-4">
+        <div class="row bg-light justify-content-evenly">
+          <div class="col-md-3 pt-5 ps-4">
+          <h1 class="htextm" id="htextid"><a href="#">Top skills</a> </h1>
+          <h1 class="htext">Trending skills</h1>
+          <h1 class="htext">Top skills in US</h1>
+          <h1 class="htext">Project Catelog&nbsp;&trade;</h1>
+        </div>
+          <div class="col-md-3 pt-5">
+            <p>Data Entry Specialists</p>
+            <p>Video Editors</p>
+            <p>Data Analyst</p>
+            <p>Shopify Developer</p>
+            <p>Ruby on Rails Developer</p>
+            <p>Android Developer</p>
+            <p>Bookkeeper</p>
+            <p>Content Writer</p>
+            <p>Copywriter</p>
+            <p>Database Administrator</p>
+            <p>Data Scientist</p>
+
+          </div>
+          <div class="col-md-3 pt-5">
+            <p>JavaScript Developer</p>
+            <p>Logo Designer</p>
+            <p>Mobile App Developer</p>
+            <p>PHP Developer</p>
+            <p>Python Developer</p>
+            <p>Resume Writer</p>
+            <p>SEO Expert</p>
+            <p>Social Media Manager</p>
+            <p>Software Developer</p>
+            <p>Software Engineer</p>
+            <p>Technical Writer</p>
+
+          </div>
+         </div>
+      </div>
+     
+     
+<!-- Footer -->
+<footer class="bg-dark  text-white">
+
+  <div class="container p-4">
+
+    <section class="">
+ 
+      <div class="row">
+    
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6 class="">For Clients</h6>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">How to Hire</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Talent Marketplace</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Project Catalog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Talent Scout</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Hire an Agency</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Enterprise</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Payroll Services</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Direct Contracts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6 class="">For Talent</h6>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">How to Find Work</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Direct Contracts</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Find Freelance Jobs Worldwide</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Find Freelance Jobs in the USA</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6 class="">Resources</h6>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Help & Support</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Success Stories</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Upwork Reviews</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Resources</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Community</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Affiliate Program</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6 class="">Company</h6>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">About Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Leadership</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Investor Relations</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Careers</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Our Impact</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Press</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Trust, Safety & Security</a>
+            </li>
+          </ul>
+        </div>
+     
+      </div>
+ 
+    </section>
+    <hr>
+   <div class="row">
+     <div class="col-md-5 text-start">
+       <span class=" pe-3">Follow Us</span>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-facebook-f"></i
+    ></a>
+
+    <!-- Twitter -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-twitter"></i
+    ></a>
+
+    <!-- Google -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-google"></i
+    ></a>
+
+    <!-- Instagram -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-instagram"></i
+    ></a>
+
+    <!-- Linkedin -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-linkedin-in"></i
+    ></a>
+
+    <!-- Github -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-github"></i
+    ></a>
+     </div>
+     <div class="col-md-5 mb-4 text-end col-sm-text-start ">
+
+      <span class=" pe-3">Mobile App </span>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-facebook-f"></i
+    ></a>
+
+    <!-- Twitter -->
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-twitter"></i
+    ></a>
+     </div>
+
+   </div>
+   <hr>
+  
+  </div>
+ 
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    &copy;&nbsp; 2015-2022 Upwork&reg; Global Inc.
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+<!--
+    <div class="container-fluid bg-black text-white pb-3">
+        <div class="row mx-5 pb-4 pt-4 border-bottom border-1 border-primary">
+          <div class="col-2">
+            <p><a href="#">For Clients</a></p>
+            <p><a href="#">How to Hire</a></p>
+            <p><a href="#">Talent Marketplace</a></p>
+            <p><a href="#">Project Catalog</a></p>
+            <p><a href="#">Talent Scout</a></p>
+            <p><a href="#">Hire an Agency</a></p>
+            <p><a href="#">Enterprise</a></p>
+            <p><a href="#">Payroll Services</a></p>
+            <p><a href="#">Direct Contracts</a></p>
+            <p><a href="#">Hire Worldwide</a></p>
+            <p><a href="#">Hire in the USA</a></p>
+          </div>
+          <div class="col-3">
+            <p><a href="#">For Talent</a></p>
+            <p><a href="#">How to Find Work</a></p>
+            <p><a href="#">Direct Contracts</a></p>
+            <p><a href="#">Find Freelance Jobs Worldwide</a></p>
+            <p><a href="#">Find Freelance Jobs in the USA</a></p>
+          </div>
+          <div class="col-3">
+            <p><a href="#">Resources</a></p>
+            <p><a href="#">Help & Support</a></p>
+            <p><a href="#">Talent Marketplace</a></p>
+            <p><a href="#">Upwork Reviews</a></p>
+            <p><a href="#">Resources</a></p>
+            <p><a href="#">Blog</a></p>
+            <p><a href="#">Community</a></p>
+            <p><a href="#">Affiliate Program</a></p>
+          </div>
+          <div class="col-3">
+            <p><a href="#">Company</a></p>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Leadership</a></p>
+            <p><a href="#">Investor Relations</a></p>
+            <p><a href="#">Careers</a></p>
+            <p><a href="#">Our Impact</a></p>
+            <p><a href="#">Press</a></p>
+            <p><a href="#">Contact Us</a></p>
+            <p><a href="#">Trust, Safety & Security</a></p>
+            <p><a href="#">UK Modern Slavery Statement</a></p>
+          </div>
+        </div>
+        <div class="row mx-5 pb-4 border-bottom border-1 border-primary">
+          <div class="col-6 ">
+            <p>Follow us</p>
+          </div>
+          <div class="col-6 me-auto">
+            <p>Mobile App</p>
+          </div>
+        </div>
+      </div>-->
+      
+
+
+
+
+
+        <!--Bootstrap JS-->
+        <script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> 
+    <script src="./js/bootstrap.js"></scrip>
+</body>
+</html>
